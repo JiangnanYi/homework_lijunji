@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>111</title>
+</head>
+<body>
+<table border="1" cellspacing="1 " cellpadding="10" id="table" width='100%' style="text-align: center;">
+    <tr align="center">
+        <th>编号</th>
+        <th>姓名</th>
+        <th>价格</th>
+        <th>品牌</th>
+        <th>介绍</th>
+    </tr>
+</table>
+<script src="js/jquery-1.11.3.js"></script>
+<script type="text/javascript">
+    var app=function(){
+        $.ajaxSetup({
+            type:"get",
+            error:function(xhr,textStatus,errorThrown){
+                alert(xhr+textStatus+errorThrown);
+            }
+        });
+        $.ajax({
+            url:"CarServlet?action=list",
+            success:function(data){
+                $("#table tr:gt(0)").remove();
+                $.each(data,function(index,obj){
+                    var tr=$("<tr/>");
+                    $("<td/>").html(obj.id).appendTo(tr);
+                    $("<td/>").html(obj.name).appendTo(tr);
+                    $("<td/>").html(obj.price).appendTo(tr);
+                    $("<td/>").html(obj.model).appendTo(tr);
+                    $("<td/>").html(obj.describe).appendTo(tr);
+                    $("#table").append(tr);
+                });
+            },
+        })
+    }
+    app();
+    </script>
+</body>
+</html>
