@@ -25,10 +25,6 @@
       <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/test/BServlet.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Books/src/com/nf/bookstore1/test/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Books/src/util/WebUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/CarDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dao/CarInMemoryDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/DBUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../JavaWebs/src/com/Stab.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../KeTang/src/cn/Stm.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../WebSockets/src/com/websocket.java" afterDir="false" />
@@ -167,7 +163,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/car_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="70">
               <caret line="125" column="27" lean-forward="true" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
             </state>
           </provider>
@@ -209,7 +205,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -1170,19 +1166,18 @@
       <workItem from="1535024313782" duration="3943000" />
       <workItem from="1535096700439" duration="2225000" />
       <workItem from="1535250274743" duration="26977000" />
-      <workItem from="1535281809320" duration="4501000" />
+      <workItem from="1535281809320" duration="4761000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37646000" />
+    <option name="totallyTimeSpent" value="37906000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.85458165" visible="true" weight="0.26096824" />
-      <window_info id="Structure" order="1" sideWeight="0.14541833" side_tool="true" visible="true" weight="0.26096824" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.71814674" visible="true" weight="0.25256222" />
+      <window_info id="Structure" order="1" sideWeight="0.2818533" side_tool="true" visible="true" weight="0.25256222" />
       <window_info id="Web" order="2" sideWeight="0.21111111" side_tool="true" weight="0.25718608" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -1191,14 +1186,14 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.041935485" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.19032258" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.18380062" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.43225807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.59657323" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.15" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Application Servers" order="12" weight="0.36612904" />
@@ -1452,7 +1447,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/car_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
+        <state relative-caret-position="70">
           <caret line="125" column="27" lean-forward="true" selection-start-line="125" selection-start-column="27" selection-end-line="125" selection-end-column="27" />
         </state>
       </provider>
