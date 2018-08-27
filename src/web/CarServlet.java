@@ -22,8 +22,8 @@ public class CarServlet extends HttpServlet {
     CarInMemoryDAO dao=new CarInMemoryDAO();
     PrintWriter out;
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.setCharacterEncoding("utf-8");
         request.setCharacterEncoding("utf-8");
+        response.setContentType("text/html;charset=utf-8");
         response.setContentType("application/json;charset=utf-8");
         out=response.getWriter();
         String action=request.getParameter("action");
